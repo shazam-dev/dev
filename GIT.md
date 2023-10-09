@@ -14,3 +14,11 @@ git config --global credential.helper store
 add file to gitignore
 git rm --cached <file>
 git rm -r --cached directory_name
+
+
+# Именование Git репозиториев:
+https://moduscreate.com/blog/github-semantic-naming/
+    - Для open source github
+        [product/project name]-[purpose]-[framework/language] e.g. myproject-api-rails
+    - Для коммерческих продуктов
+        [product/project name]-[purpose] e.g. myproject-rest-api
