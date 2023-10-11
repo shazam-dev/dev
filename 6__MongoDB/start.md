@@ -1,0 +1,4 @@
+- Установка графического интерфейса MongoDB Compass Download (GUI) - https://www.mongodb.com/try/download/compass
+- Установка - https://www.mongodb.com/docs/manual/installation/
+    - Загрузка версии Community - https://www.mongodb.com/try/download/community
+- подключение и простой роутинг - https://dev.to/franciscomendes10866/setup-mongodb-with-mongoose-and-express-4c58
