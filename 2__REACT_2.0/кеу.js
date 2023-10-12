@@ -102,7 +102,7 @@ const PrivateCab = () => {
                                 <td>{order.value}</td>
                                 <td>{order.cashless_status ?
                                         <p>Без наличная</p>
-                                        :
+                                        :Б
                                         <p>Наличная</p>
                                     }
                                 </td>
@@ -110,9 +110,11 @@ const PrivateCab = () => {
                                     {order.status_pay ? (
                                         <p><span href='#' style={{fontSize: 18, color: 'green'}}> оплачено</span></p>
                                     ) : (
-                                        <p><span href='#' style={{fontSize: 18, color: 'red'}}>не оплачено</span>
+                                        // <p><span href='#' style={{fontSize: 18, color: 'red'}}>не оплачено</span>
+                                        // <p><span href='#' style={{fontSize: 18, color: 'red'}}>не нужно так делать! </span>
+                                        // <p><span href='#' style={{fontSize: 18, color: 'red'}}>не нужно так </span>
                                             {/* <a href='#' >   - оплатить</a> */}
-                                        </p>
+                                        </p>let prank
                                     )}
                                 </td>
                                 <td>{order.createdAt.split('T')[0] + ' / ' + order.createdAt.split('T')[1].split('.')[0]}</td>
