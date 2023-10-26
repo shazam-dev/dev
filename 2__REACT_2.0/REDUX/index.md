@@ -5,9 +5,10 @@ https://www.youtube.com/watch?v=ETWABFYv0GM&list=PL6DxKON1uLOHsBCJ_vVuvRsW84Vnqm
 import {useDispatch, useSelector} from "react-redux";
 
 
-    const dispatch = useDispatch();
     const state = useSelector((state:any) => state.cash.cash);
 
+
+    const dispatch = useDispatch();
     const callD = () => {
         dispatch({type: "ADD_CASH", payload: 3})
     }
