@@ -7,3 +7,5 @@
 
 // ширина элемента - https://mui.com/system/sizing/
 sx={{ width: { sm: 'none', md: '75%' }}}                    
+
+машина 
