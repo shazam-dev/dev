@@ -70,3 +70,5 @@ Check_type
     Object
         Object.keys(devices).length // Проверка массива на пустоту 
 
+Преобразование типов
+    - https://fruntend.com/manuals/preobrazovanie-tipov-dannykh/preobrazovanie-stroki-v-chislo-v-javascript

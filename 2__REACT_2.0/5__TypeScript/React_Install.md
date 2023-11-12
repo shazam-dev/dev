@@ -7,4 +7,3 @@ https://fettblog.eu/typescript-react/components/
 
 - npx create-react-app my-app --template typescript
 - Использовать для всех пакетов @type/
-- 

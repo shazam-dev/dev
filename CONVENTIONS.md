@@ -14,8 +14,8 @@
    - Microsoft Edge - из-за возможности переключаться между вкладками alt+tab
 
 - ORM for Node
-   - Sequalize для PostgreSQL
    - Mondoose для MongoDB
+   - Sequalize для PostgreSQL
 
 - Регистратор домена
    - ТаймВеб из-за стабильности, дешевизны и встроенной консоли
