@@ -21,7 +21,7 @@
         await Model.findOne({ country: 'Croatia' }, 'name length').exec(); // WHERE country: Croatia SELECT name & length
     
     3:
-        Athlete.find()
+        await Athlete.find()
                 .where("sport").equals("Tennis") // WHERE sport: Tennis 
                 .where("age").gt(17).lt(50) // Additional where query
                 .where('likes').in(['vaporizing', 'talking'])
