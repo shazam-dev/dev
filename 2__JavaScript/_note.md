@@ -10,8 +10,8 @@ _2:
     
 _3:
     Spred - разбить массив (объект) на елементы
-        - func(...[1, 2, 3, 4, 5]); //! func(1,2,3,4,5);
-        - const newArray = [...oneArray + ...twoArray];
+        - const newArray = [...oneArray, ...twoArray];
+            - func(...[1, 2, 3, 4, 5]); //! func(1,2,3,4,5);
         - const newObject = {...oneObject, ...twoObject};
         - 
 _4:
