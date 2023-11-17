@@ -21,7 +21,7 @@
         await Model.findOne({ country: 'Croatia' }, 'name length').exec(); // WHERE country: Croatia SELECT name & length
     
     3:
-        await Athlete.find()
+        await Model.find()
                 .where("sport").equals("Tennis") // WHERE sport: Tennis 
                 .where("age").gt(17).lt(50) // Additional where query
                 .where('likes').in(['vaporizing', 'talking'])
@@ -29,6 +29,27 @@
                 .sort({ age: -1 })
                 .select("name age")
                 .exec();
+        
+        await DiscoModelunt.findById(id)
+            .select("name age")
+            .populate('userId', 'name phone')
+            .exec();
+
+
+            https://stackoverflow.com/questions/26691543/return-certain-fields-with-populate-from-mongoose
+            .find(query).select({'advtId': 0})
+            .populate({
+                path: 'influId',
+                model: 'influencer',
+                select: { '_id': 1,'user':1},
+                populate: {
+                    path: 'userid',
+                    model: 'User'
+                }
+            })
+            .populate('campaignId',{'campaignTitle':1})
+            .exec(callback);
+
 
 // COUNT:
     1: 
