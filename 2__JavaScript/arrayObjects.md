@@ -12,7 +12,8 @@ LOOPS:
 
         reduce() - вернет результат 
                 const numbers = [175, 50, 25];
-                numbers.reduce((total, num) => total - num, 0); // return 100
+                let m = numbers.reduce((total, item, index, array) => { return total + item }, 0); 
+                console.log(m)// return 250
 
         forEach() - цикл, который вернет результат использования всех елементов массива
                 const fruits = ["apple", "orange", "cherry"];
