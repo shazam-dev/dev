@@ -14,5 +14,5 @@
             import {name, name1} from './Test';
 
         // DEFAULT
-        export default let name...
+        export default {...} // здесь не нужно создавать переменную для импорта
             import Test from './Test'; 
