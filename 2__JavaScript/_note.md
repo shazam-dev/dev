@@ -2,6 +2,8 @@
 IF: __________________________________________
     let a = varOne || 6; // если varOne не существует, то будет 6, НО varOne должно быть задано undefined 
     let one = условие ? значение1 : значение2; 
+    /*return*/ условие ? значение1 : значение2; 
+
     Spred (распространить)   
         - const newObject = {...oneObject, ...twoObject};
         - const newArray = [...oneArray, ...twoArray];
@@ -46,3 +48,7 @@ Check_type
 
     Object
         Object.keys(devices).length // Проверка массива на пустоту 
+
+
+
+https://stackoverflow.com/questions/69173568/javascript-array-empty-and-undefined
