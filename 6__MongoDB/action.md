@@ -50,6 +50,17 @@
             .populate('campaignId',{'campaignTitle':1})
             .exec(callback);
 
+// DELETE:
+    deleteOne() and deleteMany()
+        await Tank.deleteOne({ size: 'large' }); // return { acknowledged: true, deletedCount: 1 }
+            // OR
+            Tank.find({ id:333 }).remove().exec(); // под вопросом!?
+
+
+// UPDATE: 
+    await Tank.updateOne({ size: 'large' }, { name: 'T-90' });
+
 
 // COUNT:
     1: 
+
