@@ -1,4 +1,6 @@
 ```js
+
+
 // TEXT 
     // Пустота строки
     if (!name ||!description ||!image ||!group ||!price) { alert("Не все поля заполнены!"); return; } 
