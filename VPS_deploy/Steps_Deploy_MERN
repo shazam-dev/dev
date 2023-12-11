@@ -1,0 +1,20 @@
+https://www.fossdex.com/new/deploying-full-stack-mern-application-on-an-nginx-vps/
+
+Step 1: Set up your VPS:
+    <sudo apt update>
+    <sudo apt upgrade>
+    <sudo apt install nginx>
+
+Step 2: Set up FireWall:
+    <apt install ufw>
+    <ufw enable>
+    <ufw allow "Nginx Full">
+
+Step 2: Install Node:
+    <sudo apt install nodejs>
+
+
+
+
+
+
