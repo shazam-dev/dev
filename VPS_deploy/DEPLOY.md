@@ -24,7 +24,22 @@ STEP 2: Clone git repositry:
     - Backend
         - <cd backend; touch .env; nano .env> // вставить переменные среды фронта
         - <pm2 start index.js>
+        - ...
+        - sudo nginx -t
+        - sudo systemctl reload nginx
 
 Step3: Config NGINX
     - sudo rm /etc/nginx/sites-enabled/default
     - sudo nano /etc/nginx/sites-available/mern-app
+
+Step 4: domen & SSl
+    - заменить А-запись домена на IP-адрес хостинга (АААА-запись удалить - иначе будет ошибка)
+        - <ping <my_domen>> // проверить А-запись
+    - подключить SSL при помощи certbot, инструкция -> (support -> certbot.md)
+
+
+
+
+
+
+
