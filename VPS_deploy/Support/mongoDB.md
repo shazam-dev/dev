@@ -27,3 +27,6 @@ https://www.educative.io/answers/12-basic-mongodb-commands
         
     - db.changeUserPassword("app_user", "new password") // заменить пароль на 
     
+
+
+    { expiresIn: '1800s' }
