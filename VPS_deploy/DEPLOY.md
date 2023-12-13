@@ -37,7 +37,9 @@ Step 4: domen & SSl
         - <ping <my_domen>> // проверить А-запись
     - подключить SSL при помощи certbot, инструкция -> (support -> certbot.md)
 
-
+Step 5: Config NGINX (/etc/nginx/nginx.conf):
+    - добавить переадресацию в nginx.conf, потому что при вставке http://www.davse.ru/ в поисковую строку браузера - выхидит 404 (nginx/1.18.0 (Ubuntu))
+    - добавить разрешение загружать файлы больше 2048 байт в теле пост запроса.
 
 
 

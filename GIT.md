@@ -1,13 +1,9 @@
 ```bash
-# Наименование Коммитов
-`fix: отремонтировал роут` // fix / build / feat - новый функционал
-
 #Стартовая настройка
-    # Сохранить пароли 
-    git config --global credential.helper store
-$ git config --list
-$ git config --global user.name "jacklee137"
-$ git config --global user.email "jack.lee137@outlook.com"
+<git config --global credential.helper store> # Сохранить пароли 
+<git config --list>
+<git config --global user.name "jacklee137"?
+<git config --global user.email "jack.lee137@outlook.com"?
 
 
 # Игнорировать файл после того, как его закоммитили
