@@ -21,8 +21,6 @@ firstAsynchronousFunction()
 })
 
 
-c
-
 
 async () => {
   try {
