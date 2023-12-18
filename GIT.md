@@ -18,3 +18,8 @@ https://moduscreate.com/blog/github-semantic-naming/
         [product/project name]-[purpose]-[framework/language] e.g. myproject-api-rails
     - Для коммерческих продуктов
         [product/project name]-[purpose] e.g. myproject-rest-api
+
+
+# ОШИБКИ:
+    - При переименовании при котором меняется только регистр букв - гит не увидит этого!
+        : <git mv old-file-name.ts new-file-name.ts>

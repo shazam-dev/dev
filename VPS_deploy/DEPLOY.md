@@ -15,6 +15,9 @@ Step 1: Set up your VPS:
     - <npm install pm2 -g>
     - <sudo apt install nginx> // https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-22-04
         - Set up firewall <sudo ufw allow 'Nginx HTTP'>
+
+STEP 1,5: 
+    - MongoDB installition
     
 STEP 2: Clone git repositry:
     - <git clone ... /var/www/> // клонирование всего проекта в папку контента nginx
