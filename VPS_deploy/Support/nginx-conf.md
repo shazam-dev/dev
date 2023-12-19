@@ -18,3 +18,8 @@
 		client_max_body_size 11M; 
 	}
 
+
+
+===================================
+
+- Журнал ошибок - /var/log/nginx/nginx_error.log

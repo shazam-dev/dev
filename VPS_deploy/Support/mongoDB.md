@@ -4,7 +4,20 @@ https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu/
     - <mongosh> - для входа в консоль mongoDB
         - <exit> // для выхода из консоли mongoDB
     - <sudo systemctl status mongod> // 
+    - Создать админа с паролем
+        use admin
+        db.createUser(
+        {
+            user: "qwerty",
+            pwd: 1029384756,
+            roles: [ 
+            { role: "userAdminAnyDatabase", db: "admin" },
+            { role: "readWriteAnyDatabase", db: "admin" } 
+            ]
+        }
+        )
 
+        
 ___________________________________________________________________________________
 https://www.educative.io/answers/12-basic-mongodb-commands
 
@@ -18,7 +31,7 @@ https://www.educative.io/answers/12-basic-mongodb-commands
     Insert:
         - db.[collections_name].insert({"name": "Theodore", "gender": "M"}) // вставит запись в коллекецию
     Update:
-        - db.[collections_name].update({"name":"Theodore"},{$set: {"name": "Theodore Kelechukwu Onyejiaku"}}) // обновить информацию
+        - db.users.updateOne({email:"Santic_@mail.ru"},{$set: {phone:"9370960299"}})
         - db.[collections_name].update({"name":"Theodore"},{$rename: {"gender":"sex"}}) // обновить название поля
         - db.[collections_name].update({"name":"Theodore"},{$unset: {"gender":"sex"}}) // удалить поле
     Delete:
@@ -30,3 +43,11 @@ https://www.educative.io/answers/12-basic-mongodb-commands
 
 
     { expiresIn: '1800s' }
+
+
+
+
+Santic_@mail.ru
+db.users.updateOne({email:"Santic_@mail.ru"},{$set: {phone:"9370960299"}})
+db.users.updateOne({email:"Santic_@mail.ru"},{$set: {phone: "89370960299"}})
+db.users.updateOne({email:"Александра Михайловская"},{$set: {phone: "89370960299"}})
