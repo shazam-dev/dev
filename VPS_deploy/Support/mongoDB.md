@@ -9,7 +9,7 @@ https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu/
         db.createUser(
         {
             user: "qwerty",
-            pwd: 1029384756,
+            pwd: "1029384756",
             roles: [ 
             { role: "userAdminAnyDatabase", db: "admin" },
             { role: "readWriteAnyDatabase", db: "admin" } 

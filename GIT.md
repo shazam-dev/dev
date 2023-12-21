@@ -10,6 +10,7 @@
 add file to gitignore
 git rm --cached <file>
 git rm -r --cached directory_name
+git status --ignored // получить список игнорируемых файлов и папок
 
 
 # Именование Git репозиториев:
