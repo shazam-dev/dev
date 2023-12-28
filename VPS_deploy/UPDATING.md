@@ -8,4 +8,7 @@ FRONTEND:
     - npm build
 
 BACKEND:
-    - pm2 restart index.js
+    - $ pm2 start app.js --time --name <name>
+        --time // для вставки времени в логи ошибок 
+        --name <name> // для именования 
+        --watch // перезагружать приложение при изменении файлов

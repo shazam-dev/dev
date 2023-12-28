@@ -16,7 +16,7 @@ Step 1: Set up your VPS:
     - <sudo apt install nginx> // https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-22-04
         - Set up firewall <sudo ufw allow 'Nginx HTTP'>
 
-STEP 1,5: 
+STEP 1: 
     - MongoDB installition
     
 STEP 2: Clone git repositry:
@@ -46,7 +46,7 @@ Step 5: Config NGINX (/etc/nginx/nginx.conf):
     - добавить переадресацию в nginx.conf, потому что при вставке http://www.davse.ru/ в поисковую строку браузера - выхидит 404 (nginx/1.18.0 (Ubuntu))
     - добавить разрешение загружать файлы больше 2048 байт в теле пост запроса.
 
-
-
+Step 6 : 
+    - UFW configuration
 
 
