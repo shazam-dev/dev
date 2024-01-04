@@ -13,3 +13,6 @@ https://selectel.ru/blog/tutorials/how-to-configure-firewall-with-ufw-on-ubuntu-
 
     - sudo ufw status numbered // показать список запретов 
         - sudo ufw delete 3 // удалить запреты из списка выше
+
+
+        Размер: 75х25мм; Клише под него 700 р., для заказа клише кликните "с оформлением"
