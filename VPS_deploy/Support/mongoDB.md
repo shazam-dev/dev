@@ -51,3 +51,5 @@ Santic_@mail.ru
 db.users.updateOne({email:"Santic_@mail.ru"},{$set: {phone:"9370960299"}})
 db.users.updateOne({email:"Santic_@mail.ru"},{$set: {phone: "89370960299"}})
 db.users.updateOne({email:"Александра Михайловская"},{$set: {phone: "89370960299"}})
+
+db.users.updateOne({email:"9956221@gmail.com"},{$set: {role:"COMPANY"}})
