@@ -16,3 +16,6 @@
         // DEFAULT
         export default {...} // здесь не нужно создавать переменную для импорта
             import Test from './Test'; 
+
+            export default varName; // экспорт после создания переменной
+                import anyName from './Any';
