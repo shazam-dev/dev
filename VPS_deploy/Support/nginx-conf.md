@@ -17,6 +17,7 @@
 		}
 
 
+	- Статика нод - https://code.mu/ru/javascript/nodejs/book/hosting/domains/static-files/
 ===================================
 
 - Журнал ошибок - /var/log/nginx/nginx_error.log
