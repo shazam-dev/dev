@@ -27,6 +27,16 @@ IF: __________________________________________
             - const {one, two, ...rest} = oneObject;// все остальные елементы объекта запишутся в объект rest
             - const {one: two} = oneObject // alias - меняет имя переменной при деструктуризации
 
+        - вставить елемент, если он есть
+            {a:1, ...(yourConditionalBoolean && {b:2})  } // outputs {a: 1} or {a:1, b:2} - https://elvisciotti.medium.com/conditional-adding-object-properties-in-javascript-in-one-line-de97f5de449a
+
+        - новая переменная и значение по умолчанию
+        const { name, age, salary=123455 } = user; // https://www.freecodecamp.org/news/javascript-object-destructuring-spread-operator-rest-parameter/
+
+        - значение новой переменной на основе существующих
+        const { first_name, last_name, full_name=`${first_name} ${last_name}` } = user;
+
+
         __________________________ Новые возможности: (не везде работают! - на сервере можно!)
             const element = e?.d.f.g; // если е не существует, то d и последюющие свойства не будут давать ошибку, а просто undefined
 ______________________________________________
