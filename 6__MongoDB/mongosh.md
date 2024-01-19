@@ -11,6 +11,7 @@ https://www.educative.io/answers/12-basic-mongodb-commands
         - db.[collections_name].insert({"name": "Theodore", "gender": "M"}) // вставит запись в коллекецию
     Update:
         - db.users.updateOne({email:"Santic_@mail.ru"},{$set: {phone:"9370960299"}})
+        - db.discounts.updateOne({"_id":ObjectId("659d30c62540d7f00f1ac2ff")},{$set: {discount:"2"}})
         - db.[collections_name].update({"name":"Theodore"},{$rename: {"gender":"sex"}}) // обновить название поля
         - db.[collections_name].update({"name":"Theodore"},{$unset: {"gender":"sex"}}) // удалить поле
     Delete:
@@ -24,15 +25,9 @@ https://www.educative.io/answers/12-basic-mongodb-commands
 
     { expiresIn: '1800s' }
 
-
-
-
-Santic_@mail.ru
 db.users.updateOne({email:"Santic_@mail.ru"},{$set: {phone:"9370960299"}})
 db.users.updateOne({email:"Santic_@mail.ru"},{$set: {phone: "89370960299"}})
 db.users.updateOne({email:"Александра Михайловская"},{$set: {phone: "89370960299"}})
-
-db.users.updateOne({email:"9956221@gmail.com"},{$set: {role:"COMPANY"}})
 
 
 
