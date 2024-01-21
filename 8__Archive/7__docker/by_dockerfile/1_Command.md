@@ -1,18 +1,13 @@
-https://www.freecodecamp.org/news/manage-postgresql-with-psql/
-psql -d database_name -U username // подключение к pjstgresql  в терминале - !! sudo устанавливаться не надо!
-Можно напрямую задавать пароль и остальное!!
+
 
 
 !!! PowerShell ONLY !!!
 
-COMPOSE
-- `docker compose up -d`
-  - -d // запуск в фоновом режиме
 
-IMAGE
-- `docker build -t name:teg .` // построить образ из dockerfile в текущей папке
-      - `-f dockerfile.dev` // использовать данный файл для сборки
-      - `-t name:teg` // испольховать свои имя и тег (можжно без тега)
+Dockerfile_commands:
+    - $ docker build -t name:teg . // построить образ из dockerfile в текущей папке
+          - $ -f dockerfile.dev // использовать данный файл для сборки
+          - $ -t name:teg // испольховать свои имя и тег (можжно без тега)
 
 CONTAINER
     - docker ps -a // показать все контейнеры

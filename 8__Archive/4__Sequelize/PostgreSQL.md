@@ -60,3 +60,8 @@ sudo systemctl status postgresql.service
 SELECT * FROM <table_name>; // to show data from table
 DROP TABLE <table_name>; // to delete a table
 DROP TABLE IF EXISTS <table_name>; // to delete table if exist
+
+
+https://www.freecodecamp.org/news/manage-postgresql-with-psql/
+psql -d database_name -U username // подключение к pjstgresql  в терминале - !! sudo устанавливаться не надо!
+Можно напрямую задавать пароль и остальное!!
