@@ -17,6 +17,7 @@ https://www.educative.io/answers/12-basic-mongodb-commands
     Delete:
         - db.customer.deleteOne({"name":"Jane Doe"})
                 - db.discounts.deleteOne( {"_id": ObjectId("659c43772540d7f00f1ac27d")});
+                - db.discounts.deleteOne({"_id": ObjectId("658aed50859cc8a0acdf5b2b")});
         - db.customer.deleteMany({"name":"Jane Doe"})
         
     - db.changeUserPassword("app_user", "new password") // заменить пароль на 
