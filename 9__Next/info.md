@@ -1,1 +1,1 @@
-https://github.com/HuXn-WebDev  - здесь хорошие примеры кода 
+https://github.com/HuXn-WebDev/Next.js-14-Masterclass
