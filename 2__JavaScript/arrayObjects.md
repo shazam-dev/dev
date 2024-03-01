@@ -10,9 +10,9 @@ LOOPS:
                 const numbers = [65, 44, 12, 4];
                 const newArr = numbers.map(num => num * 10) // return [650, 440, 120, 40]
 
-        reduce() - вернет результат 
+        reduce() - вернет результат
                 const numbers = [175, 50, 25];
-                let m = numbers.reduce((total, item, index, array) => { return total + item }, 0); 
+                let m = numbers.reduce((total, item, index, array) => { return total + item }, 0);
                 console.log(m)// return 250
 
         forEach() - цикл, который вернет результат использования всех елементов массива
@@ -27,7 +27,7 @@ LOOPS:
                 let text = "";
                 for (let x of cars) {
                         text += x;
-                } // return 
+                } // return
 ADDING
         push
         unshift
@@ -61,9 +61,18 @@ Object.values(obj); // ['a', 'b', 'c']
 Object.entries(obj); // [ ['0', 'a'], ['1', 'b'], ['2', 'c'] ]
 Object.fromEntries(arr); // из двухуровнего массива в объект
 
-// ForIn 
+
+let user = {
+  name: "John",
+  age: 30,
+  "likes birds": true  // имя свойства из нескольких слов должно быть в кавычках
+};
+
+
+// ForIn
     const person = {fname:"John", lname:"Doe", age:25};
     let tXt = "";
     for (let x in person) {
         txt += person[x] + " ";
     } // return "John Doe 25 "
+```
