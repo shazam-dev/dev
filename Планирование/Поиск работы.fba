@@ -1,0 +1,38 @@
+version: '0.7'
+type: 'fba'
+title: 'Работа программистом'
+attributes: []
+fishbone:
+  - fbUid: 'daZGJd05'
+    name: 'Собеседование'
+    categories:
+      - fbUid: 'vBKCuwv5'
+        name: '1 создато портфолио'
+        rootCauses:
+          - fbUid: 'Wskjxzif'
+            type: 'react'
+            element: 'FBACheckbox'
+            props:
+              label: 'HH - узнать стак'
+              value: null
+          - fbUid: 'hVQlskC5'
+            type: 'react'
+            element: 'FBACheckbox'
+            props:
+              label: 'Портфолио (обучение + проекты)'
+              value: null
+      - fbUid: 'agN4I8tC'
+        name: '2 cоздать резюме'
+        rootCauses:
+          - fbUid: 'DdBNHIib'
+            type: 'react'
+            element: 'FBACheckbox'
+            props:
+              label: 'выставить на 2 недели на Dice'
+              value: null
+          - fbUid: 'y4w1Pn4y'
+            type: 'react'
+            element: 'FBACheckbox'
+            props:
+              label: 'Выставить на HH'
+              value: null
