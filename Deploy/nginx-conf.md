@@ -1,9 +1,8 @@
-Основные команды:
-    sudo nginx -t // проверка синтаксиса
-    sudo systemctl restart nginx // перезагрузка сервера после внесения изменений
+- Команды:
+    sudo nginx -t // проверка 
+    sudo systemctl restart nginx // перезагрузка
 
-/etc/nginx/sites-available/davse
-	server_name example.org www.example.org;
+
 
 /etc/nginx/nginx.conf
 	http {
@@ -18,6 +17,9 @@
 
 
 	- Статика нод - https://code.mu/ru/javascript/nodejs/book/hosting/domains/static-files/
+
+
 ===================================
+
 
 - Журнал ошибок - /var/log/nginx/nginx_error.log
